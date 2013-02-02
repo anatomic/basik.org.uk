@@ -1,0 +1,186 @@
+/*---Typography----*/
+
+::selection{
+    background:#e12000;
+    color:#fff;
+}
+
+body{
+    font-size: 100%;
+    font-family:Arial, Helvetica, sans;
+    color:#fff;
+}
+
+#header h1{
+    text-indent:-99999em;
+    background:url(../images/strapline.png) no-repeat;
+    width:301px;
+    height:94px;
+    display:block;
+    position:absolute;
+    right:0;
+    bottom:25px;
+}
+
+h2{
+    font-size:1.25em;
+    font-weight:bold;
+    -moz-text-shadow:1px 1px 0px rgba(0, 0, 0, 0.2);
+    text-shadow:1px 1px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom:0.5em;
+}
+
+#support-us h2{
+    -moz-text-shadow:none;
+    text-shadow: none;
+    color:#d06e2d;
+}
+
+h3{
+    font-weight:bold;
+}
+
+h3,
+a,
+#footer p{
+    color:#dd912d;
+}
+
+#promo p{
+    font-size:1.125em;
+    line-height: 1.222222222222222;
+    font-weight:bold;
+}
+
+#promo p b{
+    color:#ffe300;
+}
+
+#cta{
+    text-transform: uppercase;
+    color:#d3702e;
+    font-weight:bold;
+    text-align: center;
+    font-size:1.375em;
+    padding-top:9px;
+     -moz-text-shadow:1px 1px 0px rgba(0, 0, 0, 0.2);
+    text-shadow:1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+#info p,
+#support-us p,
+#support-us li{
+    font-size:0.875em; /* 14px */
+    line-height: 1.285714285714286; /* 18px */
+}
+
+#footer p{
+    display:block;
+    font-size:0.8125em; /* 13px */
+    margin-top:0.384615384615385em; /* 5px */
+}
+
+#footer small{
+    font-size:0.846153846153846em; /* 11px */
+}
+
+#support-us{
+    color:#797979;
+    border-bottom:1px solid #dedede;
+    margin-bottom:10px;
+    padding-bottom:10px;
+}
+
+/*--- Elements ---*/
+
+body{
+    background:url(../images/bg.jpg) repeat-x;
+}
+
+#header{
+    height:210px;
+    background:url(../images/map.png) right no-repeat;
+    position:relative;
+}
+
+#promo{
+    padding-top:50px;
+    padding-bottom:40px;
+}
+
+#info ul{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+#logo{
+    position:absolute;
+    bottom:0;
+}
+
+#cta{
+    background:url(../images/button-bg.png) no-repeat;
+    display:block;
+    width: 224px;
+    height:44px;
+}
+
+#cta:active,
+#cta:focus{
+    position:relative;
+    top:1px;
+}
+
+#social{
+    position:absolute;
+    right:-30px;
+    bottom:10px;
+}
+
+#social #facebook{
+    margin-top:0;
+    float:left;
+}
+
+#support-us ul{
+    padding-top:20px;
+}
+
+#support-us #giveacar ul{
+    margin-left:25px;
+    margin-bottom:10px;
+}
+
+@media (max-width: 720px){
+#cta{
+    margin:0 auto 30px auto;
+}
+
+#header h1{
+    background:none;
+    position:inherit;
+    text-indent: 0;
+    width:auto;
+    height:auto;
+    color: #d06e2d;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-top:50px;
+    line-height: 1;
+}
+
+#logo{
+    display:none;
+}
+#header{
+    background:none;
+    height:auto;
+}
+#social{
+    position:inherit!important;
+    display:block;
+    width:355px;
+    margin:15px auto 0 auto;
+}
+}
