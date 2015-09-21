@@ -1,0 +1,23 @@
+{
+  "name": "basik.org.uk",
+  "version": "1.0.0",
+  "description": "basik.org.uk ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anatomic/basik.org.uk.git"
+  },
+  "author": "Ian Thomas <i.thomas@ticketarena.co.uk> (www.ian-thomas.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anatomic/basik.org.uk/issues"
+  },
+  "homepage": "https://github.com/anatomic/basik.org.uk#readme",
+  "devDependencies": {
+    "gh-pages": "^0.4.0"
+  }
+}
