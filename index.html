@@ -35,118 +35,84 @@
         })();
 
     </script>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js" async>
-        {
-            lang: 'en-GB'
-        }
-    </script>
 </head>
 <body>
 
 <div id="header" class="wrapper">
     <a href="mailto:info@basik.org.uk" id="logo"><img src="/images/logo.png" alt="BASIK"></a>
-
-    <div id="social">
-        <div id="facebook">
-            <fb:like href="" send="true" layout="button_count" width="150" show_faces="false" font="tahoma"></fb:like>
-        </div>
-        <a href="http://twitter.com/share" class="twitter-share-button"
-           data-text="Build Schools, End Poverty - BASIK, an Ilkley based charity supporting education in Kenya"
-           data-count="horizontal" data-via="endpovertybasik" data-related="anatomic:Website designer and developer">Tweet</a>
-        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-        <script>
-            twttr.events.bind('tweet', function (event) {
-                if (event) {
-                    var targetUrl;
-                    if (event.target && event.target.nodeName == 'IFRAME') {
-                        targetUrl = extractParamFromUri(event.target.src, 'url');
-                    }
-                    _gaq.push(['_trackSocial', 'twitter', 'tweet', targetUrl]);
-                }
-            });
-            function extractParamFromUri(uri, paramName) {
-                if (!uri) {
-                    return;
-                }
-                var uri = uri.split('#')[0]; //remove anchor
-                var parts = uri.split('?'); //check for query params
-                if (parts.length == 1) {
-                    return; //no params
-                }
-
-                var query = decodeURI(parts[1]);
-
-                //find the url param
-                paramName += '=';
-                var params = query.split('&');
-                for (var i = 0, param; param = params[i]; ++i) {
-                    if (param.indexOf(paramName) === 0) {
-                        return unescape(param.split('=')[1]);
-                    }
-                }
-            }
-        </script>
-        <g:plusone size="medium" href="www.basik.org.uk"></g:plusone>
-    </div>
     <h1>Build Schools, End Poverty</h1>
 </div>
 
-<div id="promo" class="wrapper cf">
-    <ul class="grids">
-        <li class="grid-5">
-            <p>With your help we can bring <b>lasting change</b> to children's lives by giving them an education. BASIK
-                provides schools with running water, desks, toilets and a building that will last. We also ensure that
-                children who cannot afford to go to school can go and <b>give all pupils a malaria net</b> to take home.
-            </p>
+<div id="promo">
+    <div class="cf wrapper">
+        <ul class="grids">
+            <li class="grid-5">
+                <p>With your help we can bring <b>lasting change</b> to children's lives by giving them an education.
+                    BASIK
+                    provides schools with running water, desks, toilets and a building that will last. We also ensure
+                    that
+                    children who cannot afford to go to school can go and <b>give all pupils a malaria net</b> to take
+                    home.
+                </p>
 
-            <p>We are working to <b>end poverty through education</b> and give children the opportunity to have a
-                brighter future.</p>
+                <p>We are working to <b>end poverty through education</b> and give children the opportunity to have a
+                    brighter future.</p>
 
-            <a href="mailto:info@basik.org.uk" id="cta">Get in touch</a>
-        </li>
+                <a href="mailto:info@basik.org.uk" id="cta">Get in touch</a>
+            </li>
 
-        <li class="grid-7">
-            <iframe width="540" height="334" src="http://www.youtube.com/embed/_is2tZbvluI?wmode=Opaque&rel=0"
-                    frameborder="0"></iframe>
-        </li>
-    </ul>
+            <li class="grid-7">
+                <iframe width="540" height="334" src="http://www.youtube.com/embed/_is2tZbvluI?wmode=Opaque&rel=0"
+                        frameborder="0"></iframe>
+            </li>
+        </ul>
+    </div>
 </div>
 
-<div id="info" class="wrapper cf section">
-    <ul class="grids">
-        <li class="grid-4">
-            <h2>What we do</h2>
+<div id="info" class="section">
+    <div class="wrapper cf">
+        <ul class="grids">
+            <li class="grid-4">
+                <h2>What we do</h2>
 
-            <p><b>BASIK</b> was setup in 2006 to help fund education in Kenya. All money raised by the charity is used
-                to provide schools with necessities such as running water, sanitation blocks, desks and a building that
-                lasts.</p>
+                <p><b>BASIK</b> was setup in 2006 to help fund education in Kenya. All money raised by the charity is
+                    used
+                    to provide schools with necessities such as running water, sanitation blocks, desks and a building
+                    that
+                    lasts.</p>
 
-            <p>The majority of children in Kenya are coming to schools in very poor conditions. There are no school
-                meals, drinking water, toilets and some schools are falling into disrepair.</p>
-        </li>
+                <p>The majority of children in Kenya are coming to schools in very poor conditions. There are no school
+                    meals, drinking water, toilets and some schools are falling into disrepair.</p>
+            </li>
 
-        <li class="grid-4">
-            <h2>Where we do it</h2>
+            <li class="grid-4">
+                <h2>Where we do it</h2>
 
-            <p><b>BASIK</b> is currently building Kilimani School, near Mombassa, Kenya. We arrived at Kilimani in 2006
-                and adopted the school as <b>BASIK</b>'s first project.</p>
+                <p><b>BASIK</b> is currently building Kilimani School, near Mombassa, Kenya. We arrived at Kilimani in
+                    2006
+                    and adopted the school as <b>BASIK</b>'s first project.</p>
 
-            <p>The school was a mud hut in a remote area in the middle of several villages. One man and a female helper
-                were trying to teach 80 local children of primary school age on a site with no water or sanitary
-                facilities and no teaching resources. In the rainy season, it was impossible to use the hut due to the
-                leaking roof and mud floor.</p>
-        </li>
+                <p>The school was a mud hut in a remote area in the middle of several villages. One man and a female
+                    helper
+                    were trying to teach 80 local children of primary school age on a site with no water or sanitary
+                    facilities and no teaching resources. In the rainy season, it was impossible to use the hut due to
+                    the
+                    leaking roof and mud floor.</p>
+            </li>
 
-        <li class="grid-4">
-            <h2>Who we are</h2>
+            <li class="grid-4">
+                <h2>Who we are</h2>
 
-            <p>Based in Ilkley, West Yorkshire, <b>BASIK</b> is a family run charity that relies on the dedication and
-                support of friends and volunteers. We organise regional fundraising events, including an annual cycling
-                challenge.</p>
+                <p>Based in Ilkley, West Yorkshire, <b>BASIK</b> is a family run charity that relies on the dedication
+                    and
+                    support of friends and volunteers. We organise regional fundraising events, including an annual
+                    cycling
+                    challenge.</p>
 
-            <p>If you would like to find out more or get involved with the charity, please email Chris or Celia.</p>
-        </li>
-    </ul>
+                <p>If you would like to find out more or get involved with the charity, please email Chris or Celia.</p>
+            </li>
+        </ul>
+    </div>
 </div>
 
 <div class="wrapper section section--inverted section--border">

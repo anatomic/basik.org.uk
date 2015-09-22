@@ -77,14 +77,6 @@ a,
     font-size:0.846153846153846em; /* 11px */
 }
 
-
-
-/*--- Elements ---*/
-
-body{
-    background:url(../images/bg.jpg) repeat-x;
-}
-
 #header{
     height:210px;
     background:url(../images/map.png) right no-repeat;
@@ -94,11 +86,12 @@ body{
 #promo{
     padding-top:50px;
     padding-bottom:40px;
+    background-color: #D16F2E;
 }
 
-#info ul{
-    margin-top:20px;
-    margin-bottom:30px;
+#info{
+    padding-top:2em;
+    background-color: #D58927;
 }
 
 #logo{
