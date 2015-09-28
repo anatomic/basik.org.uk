@@ -123,6 +123,29 @@ a,
 .section--border {
     border-bottom: 1px solid #dedede;
 }
+.button {
+    display: block;
+    line-height:4;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+.button:hover {
+    text-decoration: none;
+}
+
+.button--facebook{
+    background-color: #405E9B;
+    color: #fff;
+    border-color: #335795;
+}
+.button--facebook:hover {
+    background-color: #6D8BC9;
+    border-color: #405E9B;
+}
 
 @media (max-width: 720px){
 #cta{
